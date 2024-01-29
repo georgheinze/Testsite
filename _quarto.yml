@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Testsite"
+  sidebar:
+    style: "docked"
+    search: true
+    contents: 
+      - section: "Basics"
+        contents:
+          - index.qmd
+      - section: "About"
+        contents: 
+          - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
